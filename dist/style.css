@@ -1,0 +1,27 @@
+.nav-list {
+	list-style: none;
+	display: flex;
+	border: solid 1px;
+	padding: 30px 50px;
+}
+
+li {
+	margin: 10px;
+}
+
+.body-text {
+	text-align: center;
+	margin: 50px 0px 100px;
+}
+
+.food-intro {
+	display: block;
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+}
+
+.map {
+	height: 20vh;
+	width: 60vh;
+}
