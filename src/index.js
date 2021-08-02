@@ -1,5 +1,5 @@
 import home from './home';
-import menu from '../src/menu.js';
+import menu from './menu';
 import contact from './contact';
 
 const tabs = document.querySelectorAll('.nav-list');
@@ -9,6 +9,7 @@ const content = document.querySelector('.content');
 const homeTab = document.querySelector('.home');
 
 // activate home tab when load
+contact();
 
 // Event listeners of when clicked on each tab, content changes
 homeTab.addEventListener('click', home);

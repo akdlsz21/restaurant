@@ -9,4 +9,6 @@ export default function menu() {
 		<p>talking some other stuff blahblah</p>
 	</div>
 </div>`;
+	const deactive = document.querySelector('.map-deactive');
+	deactive.innerHTML = ``;
 }
